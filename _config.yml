@@ -2,7 +2,7 @@ destination: docs/
 
 baseurl: "jekyll-start"
 
-permalink: none
+permalink: /:title/
 
 collections:
   authors:
