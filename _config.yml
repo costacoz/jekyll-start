@@ -2,6 +2,8 @@ destination: docs/
 
 baseurl: "jekyll-start"
 
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 collections:
   authors:
     output: true
