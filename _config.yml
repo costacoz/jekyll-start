@@ -2,7 +2,7 @@ destination: docs/
 
 baseurl: "jekyll-start"
 
-permalink: /:title/
+permalink: /:categories/:year/:month/:day/:title
 
 collections:
   authors:
