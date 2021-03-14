@@ -1,0 +1,12 @@
+---
+arr: ['one', 'two']
+title: welcome!
+layout: default
+var: $200
+---
+<h1>Welcome to my first Jekyll website!</h1>
+<div>Looking for <b>{{ "WordPress Developer" | upcase }}.</b></div>
+<div>Page title is: {{page.title}}</div>
+{% for p in page.arr %}
+Here is: {{p | capitalize }} <br>
+{% endfor %}
